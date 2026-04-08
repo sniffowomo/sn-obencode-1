@@ -6,6 +6,7 @@
 # What
 
 1. Main activities here as panty
+2. Will do activities in subdirs with as o1..o2..o3..
 
 ## Wesbites
 
