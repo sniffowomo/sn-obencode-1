@@ -6,6 +6,7 @@
 # What
 
 1. This will be the first atempt at the work
+2. While studying the work for openpanty , you can across [`Docker-Sbx-Opencode`](https://docs.docker.com/ai/sandboxes/agents/opencode/). Before continuing the course yu will try to get this sandbox working
 
 # Dirz
 
