@@ -1,2 +1,1 @@
-# sn-obencode-1
-Study- https://opencode.school/ -1
+<img src="./sn/1.gif" alt="Responsive image" width="400%" />
