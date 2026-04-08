@@ -1,0 +1,22 @@
+[1;94m · · ────── ꒰ঌ·✦·໒꒱ ────── · ·
+[1;94m · · ────── PantySmellling ────── · ·
+[1;94m · · ────── ꒰ঌ·✦·໒꒱ ────── · ·
+Wed Apr  8 09:47:42 AM UTC 2026
+Executing:[1;95mcurl ipinfo.io[0m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   256  100   256    0     0    946      0 --:--:-- --:--:-- --:--:--   948
+{
+  "ip": "20.192.21.56",
+  "city": "Pune",
+  "region": "Maharashtra",
+  "country": "IN",
+  "loc": "18.5196,73.8554",
+  "org": "AS8075 Microsoft Corporation",
+  "postal": "411001",
+  "timezone": "Asia/Kolkata",
+  "readme": "https://ipinfo.io/missingauth"
+}[1;92mDone!
+───── ⋆⋅☆⋅⋆ ─────[0m
+───── ⋆⋅☆⋅⋆ ─────[0m
+───── ⋆⋅☆⋅⋆ ─────[0m
