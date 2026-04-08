@@ -28,8 +28,10 @@ RESET='\033[0m'
 pussy1() {
     declare -a CMD=(
 
-        #0 -  Step1 - Make Iam compartment vmlab1
-        "curl ipinfo.io"
+        #0 -  Install opencode cli
+        "curl -fsSL https://opencode.ai/install | bash"
+
+        
 
     )
 
@@ -73,7 +75,7 @@ booty1() {
 
 panty() {
     pussy1 2>&1 | tee -a sc/lo/pussylick.txt
-    booty1 2>&1 | tee -a sc/lo/bootylick.txt
+    # booty1 2>&1 | tee -a sc/lo/bootylick.txt
     
 }
 panty
