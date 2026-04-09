@@ -5,7 +5,9 @@ Wed Apr  8 09:47:42 AM UTC 2026
 Executing:[1;95mcurl ipinfo.io[0m
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   256  100   256    0     0    946      0 --:--:-- --:--:-- --:--:--   948
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   256  100   256    0     0    946      0 --:--:-- --:--:-- --:--:--   948
 {
   "ip": "20.192.21.56",
   "city": "Pune",
@@ -27,7 +29,20 @@ Wed Apr  8 10:48:25 AM UTC 2026
 Executing:[1;95mcurl -fsSL https://opencode.ai/install | bash[0m
 [0m
 [0;2mInstalling [0mopencode [0;2mversion: [0m1.4.0[0m
-#=#=#                                                                          ##O#-#                                                                         ##O=#  #                                                                                                                                                  0.1%                                                                           0.4%#                                                                          1.6%####                                                                       5.7%#############                                                             18.6%#########################                                                 35.0%#####################################                                     51.5%################################################                          68.0%############################################################              84.4%######################################################################## 100.0%
+#=#=#                                                                          
+##O#-#                                                                         
+##O=#  #                                                                       
+
+                                                                           0.1%
+                                                                           0.4%
+#                                                                          1.6%
+####                                                                       5.7%
+#############                                                             18.6%
+#########################                                                 35.0%
+#####################################                                     51.5%
+################################################                          68.0%
+############################################################              84.4%
+######################################################################## 100.0%
 [0m[0;2mSuccessfully added [0mopencode [0;2mto $PATH in [0m/home/vscode/.bashrc[0m
 
 [0;2m                    [0m             ▄     
@@ -48,3 +63,95 @@ opencode      [0;2m# Run command[0m
 ───── ⋆⋅☆⋅⋆ ─────[0m
 ───── ⋆⋅☆⋅⋆ ─────[0m
 ───── ⋆⋅☆⋅⋆ ─────[0m
+[1;94m · · ────── ꒰ঌ·✦·໒꒱ ────── · ·
+[1;94m · · ────── PantySmellling ────── · ·
+[1;94m · · ────── ꒰ঌ·✦·໒꒱ ────── · ·
+Wed Apr  8 04:51:07 PM UTC 2026
+Executing:[1;95mbrew install docker/tap/sbx[0m
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Homebrew collects anonymous analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics have been recorded yet (nor will be during this `brew` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+overturemaps: Python tools for interacting with Overture Maps data
+sheets: Terminal based spreadsheet tool
+
+==> Tapping docker/tap
+Cloning into '/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/docker/homebrew-tap'...
+Tapped 6 casks (26 files, 255.2KB).
+==> Fetching downloads for: docker/tap/sbx
+✔︎ Cask sbx (0.24.1)
+Error: Cask sbx depends on hardware architecture being one of [{type: :arm, bits: 64}], but you are running {type: :intel, bits: 64}.
+
+
+[1;94m · · ────── ꒰ঌ·✦·໒꒱ ────── · ·
+[1;94m · · ────── PantySmellling ────── · ·
+[1;94m · · ────── ꒰ঌ·✦·໒꒱ ────── · ·
+Wed Apr  8 04:52:55 PM UTC 2026
+Executing:[1;95mbrew install docker/tap/ds@nightly[0m
+Warning: No available formula or cask with the name "docker/tap/ds@nightly". Did you mean docker-agent?
+--2026-04-08 16:56:12--  https://github.com/docker/sbx-releases/releases/download/v0.24.1/DockerSandboxes-linux-amd64-ubuntu2404.deb
+Resolving github.com (github.com)... 20.207.73.82
+Connecting to github.com (github.com)|20.207.73.82|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/1171721088/d689a067-9a97-409b-8021-c0dd399f3ba6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-08T17%3A53%3A07Z&rscd=attachment%3B+filename%3DDockerSandboxes-linux-amd64-ubuntu2404.deb&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-08T16%3A52%3A45Z&ske=2026-04-08T17%3A53%3A07Z&sks=b&skv=2018-11-09&sig=GNthXMkNu8BetGcr11C08kR2I2GOBmI2GhZfWLxk6go%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NTY2OTE3MywibmJmIjoxNzc1NjY3MzczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.E_LPSuGZAp4gAYr7LvzqYk8OUp_eh2xBE8CdZCnsA88&response-content-disposition=attachment%3B%20filename%3DDockerSandboxes-linux-amd64-ubuntu2404.deb&response-content-type=application%2Foctet-stream [following]
+--2026-04-08 16:56:13--  https://release-assets.githubusercontent.com/github-production-release-asset/1171721088/d689a067-9a97-409b-8021-c0dd399f3ba6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-08T17%3A53%3A07Z&rscd=attachment%3B+filename%3DDockerSandboxes-linux-amd64-ubuntu2404.deb&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-08T16%3A52%3A45Z&ske=2026-04-08T17%3A53%3A07Z&sks=b&skv=2018-11-09&sig=GNthXMkNu8BetGcr11C08kR2I2GOBmI2GhZfWLxk6go%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NTY2OTE3MywibmJmIjoxNzc1NjY3MzczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.E_LPSuGZAp4gAYr7LvzqYk8OUp_eh2xBE8CdZCnsA88&response-content-disposition=attachment%3B%20filename%3DDockerSandboxes-linux-amd64-ubuntu2404.deb&response-content-type=application%2Foctet-stream
+Resolving release-assets.githubusercontent.com (release-assets.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 57484912 (55M) [application/octet-stream]
+Saving to: ‘DockerSandboxes-linux-amd64-ubuntu2404.deb’
+
+     0K .......... .......... .......... .......... ..........  0%  696K 81s
+
+2026-04-08 16:56:15 (29.5 MB/s) - ‘DockerSandboxes-linux-amd64-ubuntu2404.deb’ saved [57484912/57484912]
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apparmor libapparmor1
+Suggested packages:
+  apparmor-profiles-extra apparmor-utils
+The following NEW packages will be installed:
+  apparmor docker-sbx
+The following packages will be upgraded:
+  libapparmor1
+1 upgraded, 2 newly installed, 0 to remove and 48 not upgraded.
+Need to get 689 kB/58.2 MB of archives.
+After this operation, 162 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Get:1 /workspaces/sn-obencode-1/W/o1/DockerSandboxes-linux-amd64-ubuntu2404.deb docker-sbx amd64 0.24.1-1~ubuntu.24.04~noble [57.5 MB]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libapparmor1 amd64 4.0.1really4.0.1-0ubuntu0.24.04.5 [50.5 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 apparmor amd64 4.0.1really4.0.1-0ubuntu0.24.04.5 [638 kB]
+Preconfiguring packages ...
+Fetched 689 kB in 2s (279 kB/s)
+(Reading database ... 100%
+(Reading database ... 30167 files and directories currently installed.)
+Preparing to unpack .../libapparmor1_4.0.1really4.0.1-0ubuntu0.24.04.5_amd64.deb ...
+Unpacking libapparmor1:amd64 (4.0.1really4.0.1-0ubuntu0.24.04.5) over (4.0.1really4.0.1-0ubuntu0.24.04.4) ...
+Selecting previously unselected package apparmor.
+Preparing to unpack .../apparmor_4.0.1really4.0.1-0ubuntu0.24.04.5_amd64.deb ...
+Unpacking apparmor (4.0.1really4.0.1-0ubuntu0.24.04.5) ...
+Selecting previously unselected package docker-sbx.
+Preparing to unpack .../DockerSandboxes-linux-amd64-ubuntu2404.deb ...
+Unpacking docker-sbx (0.24.1-1~ubuntu.24.04~noble) ...
+Setting up libapparmor1:amd64 (4.0.1really4.0.1-0ubuntu0.24.04.5) ...
+Setting up apparmor (4.0.1really4.0.1-0ubuntu0.24.04.5) ...
+Created symlink /etc/systemd/system/sysinit.target.wants/apparmor.service → /usr/lib/systemd/system/apparmor.service.
+
+Reloading AppArmor profiles 
+Setting up docker-sbx (0.24.1-1~ubuntu.24.04~noble) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...

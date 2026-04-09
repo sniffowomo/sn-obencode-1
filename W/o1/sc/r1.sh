@@ -31,11 +31,19 @@ pussy1() {
         #0 -  Install opencode cli
         "curl -fsSL https://opencode.ai/install | bash"
 
+        #1 - Docker Sbx Install - Doesnt work 
+        "brew install docker/tap/sbx"
+
+        #2 - Second method from official docs  - Doesnt work on codespaces 
+        "brew install docker/tap/ds@nightly"
+
         
 
     )
 
-    CMDEXEC="${CMD[0]}"
+    CMDEXEC="${CMD[2]}"
+    echo -e ""
+    echo -e ""
     echo -e "${BBLUE} · · ────── ꒰ঌ·✦·໒꒱ ────── · ·"
     echo -e "${BBLUE} · · ────── PantySmellling ────── · ·"
     echo -e "${BBLUE} · · ────── ꒰ঌ·✦·໒꒱ ────── · ·"
@@ -46,6 +54,18 @@ pussy1() {
     echo -e "───── ⋆⋅☆⋅⋆ ─────${RESET}"
     echo -e "───── ⋆⋅☆⋅⋆ ─────${RESET}"
     echo -e "───── ⋆⋅☆⋅⋆ ─────${RESET}"
+    echo -e ""
+    echo -e ""
+}
+
+# Docker SBX Install as of  - 
+# https://docs.docker.com/ai/sandboxes/get-started/ - Manual 
+# https://github.com/docker/sbx-releases/releases - releases to download
+docker_sbx_install() {
+    # Download the deb file 
+    wget https://github.com/docker/sbx-releases/releases/download/v0.24.1/DockerSandboxes-linux-amd64-ubuntu2404.deb
+    sudo apt install ./DockerSandboxes-linux-amd64-ubuntu2404.deb
+    rm DockerSandboxes-linux-amd64-ubuntu2404.deb
 }
 
 # Looping Booties
@@ -74,7 +94,8 @@ booty1() {
 # /// Execiton /// 
 
 panty() {
-    pussy1 2>&1 | tee -a sc/lo/pussylick.txt
+    # pussy1 2>&1 | tee -a sc/lo/pussylick.txt
+    docker_sbx_install 2>&1 | tee -a sc/lo/pussylick.txt
     # booty1 2>&1 | tee -a sc/lo/bootylick.txt
     
 }
